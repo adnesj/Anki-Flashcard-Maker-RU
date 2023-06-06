@@ -10,7 +10,7 @@ Example output:
 отвечать;;[sound:отвечать.ogg] отвеча́ть | отве́тить [sound:ответить.ogg];[ɐtvʲɪˈt͡ɕætʲ];to answer;(отвеча́ю, отвеча́ет, отвеча́ют — отвеча́л, отвеча́ла, отвеча́ло — отвеча́й | отве́чу, отве́тит, отве́тят — отве́тил, отве́тила, отве́тило — отве́ть);[sound:отвечать_impf.mp3] Я отвечаю за его честность, потому что я его хорошо знаю.;I answer for his honesty, for I know him well.;[sound:отвечать_pf.mp3] Она не ответила на мой вопрос.;She made no response to my question.;Inherited from Proto-Slavic *otъvěťati. Synchronically as if from отве́тить (otvétitʹ) +‎ -а́ть (-átʹ).;en.wiktionary.org/wiki/отвечать/#Russian https://en.openrussian.org/ru/отвечать
 
 How it looks in anki:  
-![image](https://github.com/adnesj/Anki-Flashcard-Maker-RU/assets/92785260/d2223bc9-78d5-4054-86b4-eb2b2baebd60)  
-![image](https://github.com/adnesj/Anki-Flashcard-Maker-RU/assets/92785260/d2bec133-e7e6-4ab7-bffb-3b7d5012df23)  
-![image](https://github.com/adnesj/Anki-Flashcard-Maker-RU/assets/92785260/22a3d03c-26ec-45bc-878c-bc8a2626359c)  
+![image](https://github.com/adnesj/Anki-Flashcard-Maker-RU/assets/92785260/55298bb3-d2a4-45e2-bc23-c8cb08fc130f)  
+![image](https://github.com/adnesj/Anki-Flashcard-Maker-RU/assets/92785260/72be049c-a5a2-487e-a795-65401d60b93c)  
+![image](https://github.com/adnesj/Anki-Flashcard-Maker-RU/assets/92785260/1aacd1d6-8933-4bc8-9bd6-e251d16f418d)
 
