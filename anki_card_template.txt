@@ -1,0 +1,190 @@
+<!-- Fields: -->
+1: Word
+2: Mnemonic
+3: Accented_Word
+4: Pronunciation
+5: Trans
+6: Info
+7: Impf_Sent
+8: Impf_Trans
+9: Pf_Sent
+10: Pf_Trans
+11: Etymology
+12: Links
+
+
+<!-- Card Type 1 (Russian to English) Front Template: -->
+<div style=Font-size:40px;font-weight:bold;>
+{{Accented_Word}}
+</div>
+
+
+<!-- Card Type 1 (Russian to English) Back Template: -->
+<!-- Front of the card -->
+{{FrontSide}}
+<div style="font-size: 15px;">
+<div style="font-family: Arial;">
+	{{Pronunciation}}
+<hr>
+
+<!-- Back of the card -->
+<div style="font-family: Sofia Sans;">
+<div style="font-size: 30px;">
+  {{Trans}}<br>
+	
+<div style="font-size: 15px;">
+	{{Info}} </div>
+  <hr>
+</div>
+<br>
+<img src={{Word}}.jpg>
+
+<div style="font-size: 20px;">
+<div style="font-style: normal;">
+  {{Impf_Sent}}<br>
+	 —<br> <div style="font-style: italic;">
+  {{Impf_Trans}}<br><br>
+
+<div style="font-style: normal;">
+  {{Pf_Sent}}<br>
+   —<br><div style="font-style: italic;">
+  {{Pf_Trans}}<br><br>
+</div>
+
+Mnemonic:
+<div style="font-style: italic;">
+  {{Mnemonic}}<br><br>
+<div style="font-style: normal;">
+  {{Etymology}}<br>
+	{{Links}}
+</div>
+
+<!-- Audio playback -->
+{{^Trans}}
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  var audioElements = document.getElementsByClassName('audio');
+
+  function playAudio(url) {
+    var audio = new Audio(url);
+    audio.play();
+  }
+
+  Array.from(audioElements).forEach(function(element) {
+    element.addEventListener('click', function() {
+      var url = this.getAttribute('data-audio-url');
+      playAudio(url);
+    });
+  });
+</script>
+<style>
+  .audio {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+  }
+</style>
+{{/Trans}}
+
+
+<!-- Card Type 1 (Russian to English) Styling: -->
+.card {
+  border: 10px solid #9E9484;
+  border-radius: 5px;
+  font-family: Sofia Sans;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-image: url("C:\Users\Ådne\Pictures");
+  background-size: cover;
+  background-position: center;
+}
+
+
+<!-- Card Type 2 (English to Russian) Back Template: -->
+<div style=Font-size:40px;font-weight:bold;>
+{{Trans}}
+</div>
+
+
+<!-- Card Type 2 (English to Russian) Front Template: -->
+<!-- Front of the card -->
+{{FrontSide}}
+
+<hr>
+
+<!-- Back of the card -->
+<div style="font-size: 30px;">
+  {{Accented_Word}}<br>
+<div style="font-size: 15px;">
+<div style="font-family: Arial;">
+	{{Pronunciation}} <br>
+<div style="font-family: Sofia Sans;">
+	{{Info}} </div>
+  <hr>
+</div>
+<br>
+
+<img src={{Word}}.jpg>
+
+<div style="font-size: 20px;">
+<div style="font-style: normal;">
+  {{Impf_Sent}}<br>
+	 —<br> <div style="font-style: italic;">
+  {{Impf_Trans}}<br><br>
+
+<div style="font-style: normal;">
+  {{Pf_Sent}}<br>
+   —<br><div style="font-style: italic;">
+  {{Pf_Trans}}<br><br>
+</div>
+
+Mnemonic:
+<div style="font-style: italic;">
+  {{Mnemonic}}<br><br>
+<div style="font-style: normal;">
+  {{Etymology}}<br>
+	{{Links}}
+</div>
+
+<!-- Audio playback -->
+{{^Trans}}
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  var audioElements = document.getElementsByClassName('audio');
+
+  function playAudio(url) {
+    var audio = new Audio(url);
+    audio.play();
+  }
+
+  Array.from(audioElements).forEach(function(element) {
+    element.addEventListener('click', function() {
+      var url = this.getAttribute('data-audio-url');
+      playAudio(url);
+    });
+  });
+</script>
+<style>
+  .audio {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+  }
+</style>
+{{/Trans}}
+
+
+
+<!-- Card Type 2 (English to Russian) Styling: -->
+.card {
+  border: 10px solid #9E9484;
+  border-radius: 5px;
+  font-family: Sofia Sans;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-image: url("C:\Users\Ådne\Pictures");
+  background-size: cover;
+  background-position: center;
+}
